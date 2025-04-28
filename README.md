@@ -10,7 +10,6 @@
 - 통계적 가설 설정 (귀무가설과 대립가설)
 - 통계적 검정 (t-test, z-test 등)
 - 결과 해석 및 시각화
-
 ## 📁 파일 설명
 
 - `AB testing.ipynb`: A/B 테스트 수행을 위한 Python 코드 및 분석 결과가 포함된 Jupyter Notebook 파일입니다.
