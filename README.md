@@ -38,6 +38,6 @@ A/B 테스트 결과를 통해 제품, 서비스, 웹사이트 개선을 위한 
 
 ## 🔗 참고 자료
 
-- [A/B Testing Guide by Optimizely]([https://www.optimizely.com/optimization-glossary/ab-testing/](https://halbeeb.medium.com/optimizing-game-design-with-data-my-journey-in-a-b-testing-for-engagement-and-monetization-d812bf58360f))
+- [Optimizing Game Design with Data: My Journey in A/B Testing for Engagement and Monetization](https://halbeeb.medium.com/optimizing-game-design-with-data-my-journey-in-a-b-testing-for-engagement-and-monetization-d812bf58360f)
 - [Practical Statistics for Data Scientists](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)
 
