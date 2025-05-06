@@ -45,14 +45,6 @@
 - Test 그룹의 `Engagement Score`와 `Monetization Score`는 Control 그룹과의 비교를 통해 **테스트 효과(효과 존재 여부)**를 평가
 
 ---
-
-## 💻 **사용 방법**
-1. `AB_test_using_gaming_data.ipynb`를 Jupyter Notebook 또는 Google Colab에서 실행
-2. 데이터 파일 경로를 본인의 로컬 경로로 수정 (예: Windows 경로 → 상대경로/절대경로 변경)
-3. 각 코드 셀을 순차적으로 실행
-
----
-
 ## 🧩 **필요한 라이브러리**
 - pandas
 - numpy
