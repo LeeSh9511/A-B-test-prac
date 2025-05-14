@@ -36,9 +36,7 @@
 
 5. **시각화 및 통계분석**
    - 두 그룹 간 `Engagement Score` 및 `Monetization Score` 분포 시각화
-   - `scipy.stats`를 사용한 통계적 유의성 검정 (z-test 등)
-
----
+   - `scipy.stats`를 사용한 통계적 유의성 검정 (t-test 등)
 
 ## 📊 **결과 해석**
 - **성별에 따른 구매 가치 차이는 크지 않음**
@@ -55,5 +53,4 @@
 ## 🔗 참고 자료
 
 - [Optimizing Game Design with Data: My Journey in A/B Testing for Engagement and Monetization](https://halbeeb.medium.com/optimizing-game-design-with-data-my-journey-in-a-b-testing-for-engagement-and-monetization-d812bf58360f)
-- [Practical Statistics for Data Scientists](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)
 
