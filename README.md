@@ -13,7 +13,8 @@
    -  정규 분포 확인  
    - Test Group에서 평균 engagement score 상승 확인
    - Welch’s t-test(이분산 t-test) 사용 가능.
-   - 또한 포스팅에서는 control group과 test group의 등분산성을 가정하고 공통 분산을 산출했지만, 이표본 t-test가 더 적합한 케이스라고 판단해 집단별 분산을 따로 산출함.
+   - levene test를 통해 control group과 test group의 engagement에 등분산 가정이 가능함을 확인했지만, 
+   - 또한 포스팅에서는 control group과 test group의 등분산성을 가정하고 공통 분산을 산출했지만, 분산 pooling 과정에서의 왜곡 가능성을 줄이기 위해 Welch's t-test(이분산 t-test)를 사용.
 
 3. **Monetization Score **
    - Monetization score=Purchases*Average_Purchase_Value/10
