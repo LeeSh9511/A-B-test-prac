@@ -1,3 +1,45 @@
+# A/B Test: User Engagement & Monetization Score Analysis
+
+이 프로젝트는 A/B 테스트를 통해 사용자 행동과 수익 지표에 어떤 변화가 있는지를 분석한 실습입니다.  
+**Engagement Score**와 **Monetization Score**를 정의하고, control group과 test group 간의 차이를 통계적 관점에서 비교합니다.
+
+##  목적
+- **A/B Test 설계 및 결과 분석**
+- 사용자 행동 데이터 기반으로 KPI(Engagement, Monetization) 변화 확인
+- Test Group과 Control Group 간의 KPI 차이에 대한 통계적 검정
+
+##  주요 분석 내용
+  
+1. **Engagement Score **  
+   - 정규 분포 확인  
+   - Test Group에서 평균 engagement score 상승 확인
+
+2. **Monetization Score **  
+   - 우측으로 치우친(right-skewed) 분포  
+   - Test Group에서 monetization score 향상
+
+
+## 사용 기술
+
+- Python 3.x
+- Pandas, Numpy
+- Seaborn, Matplotlib
+- Scipy.stats
+
+---
+
+## 📈 결과 요약
+
+| 항목 | 결과 |
+|------|------|
+| Engagement 변화 | Test Group에서 유의미한 증가 |
+| Monetization 변화 | 정규성이 부족해 비모수 검정 사용, Test Group에서 증가 경향 |
+
+---
+
+
+
+
 # AB Test Using Gaming Data
 
 이 프로젝트는 **게임 내 A/B 테스트 데이터를 활용하여 사용자 행동 및 수익성을 비교 평가**하는 Python 기반 분석 노트북입니다.  
@@ -50,7 +92,8 @@
 - matplotlib
 - seaborn
 
-## 🔗 참고 자료
 
-- [Optimizing Game Design with Data: My Journey in A/B Testing for Engagement and Monetization](https://halbeeb.medium.com/optimizing-game-design-with-data-my-journey-in-a-b-testing-for-engagement-and-monetization-d812bf58360f)
+## 참고자료
+
+- [Optimizing Game Design with Data: My Journey in A/B Testing for Engagement and Monetization](https://halbeeb.medium.com/optimizing-game-design-with-data-my-journey-in-a-b-testing-for-engagement-and-monetization-d812bf58360f)을 기반으로 작성됨.
 
