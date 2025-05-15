@@ -13,6 +13,7 @@
    -  정규 분포 확인  
    - Test Group에서 평균 engagement score 상승 확인
    - Welch’s t-test(이분산 t-test) 사용 가능.
+   - 또한 포스팅에서는 control group과 test group의 등분산성을 가정하고 공통 분산을 산출했지만, 이표본 t-test가 더 적합한 케이스라고 판단해 집단별 분산을 따로 산출함.
 
 3. **Monetization Score **
    - Monetization score=Purchases*Average_Purchase_Value/10
@@ -24,7 +25,10 @@
 
 ## 📈 결과 요약
 
-<img src="./figures/AB_test_result.PNG" style="width:50%;"/>
+<img src="./figures/AB_test_result.PNG" style="width:60%;"/>
+
+   - Ho : 𝜇_control=𝜇_test vs H1 : 𝜇_control<𝜇_test
+   - test 결과, 유저 참여도와 과금 정도가 test group에서 유의미하게 향상되었음을 알 수 있음.
 
 
 ## 참고자료
